@@ -1,0 +1,46 @@
+<!Doctype HTML>
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: green;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <pre>
+    <h1>Hospedagem</h1>
+    <label>Número do quarto:</label>  <input type="text" maxlength="5"/>
+
+    <label>Nome do Hospede:</label>   <input type="text" maxlength="15"/>
+
+    <label>Quantidade de Hospedes:</label>   <input type="text" maxlength="2"/>
+
+    <label>Data de entrada:</label> <form><input type="date" /></form>   <label>Data de saída:</label> <form><input type="date" /></form>
+
+    <label>Pacotes de Dias:</label>                  
+        <input type="radio" name="pacotes" checked="checked" />3 Dias
+        <input type="radio" name="pacotes" />4 Dias
+        <input type="radio" name="pacotes" />5 Dias
+        <input type="radio" name="pacotes" />6 Dias
+        <input type="radio" name="pacotes" />7 Dias
+
+    <label>Refeições</label><form>
+        <input type="checkbox" name="cafe1" /> Café da manhã
+        <input type="checkbox" name="cafe2" /> Almoço
+        <input type="checkbox" name="cafe3" /> Café da tarde
+        <input type="checkbox" name="cafe4" /> Jantar
+        </form>
+                                 <input  type="submit" value="Enviar" />       <input type="reset" value="Limpar" />
+     </pre>
+    </fieldset>
+  </form>
+</body>
+
+</html>

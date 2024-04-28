@@ -1,0 +1,42 @@
+<!Doctype HTML>
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: rgb(90, 5, 10 );
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <pre>
+    <h1>Marcação de Consulta</h1>
+    <label>Código do Paciente:</label>  <input type="text" maxlength="10"/>
+
+    <label>Nome do Paciente:</label>   <input type="text" maxlength="30"/>
+
+    <label>Sexo:</label>  <input type="radio" name="pacotes" checked="checked" /> Masculino  <input type="radio" name="pacotes" /> Feminino
+
+    <label>Idade:</label> <input type="text" maxlength="3"/>
+
+    <label>Plano de Saúde:</label> <input type="text" maxlength="10"/>
+
+    <label>Especialidade:</label><form><input type="checkbox" name="esp" /> Cardiologista <input type="checkbox" name="esp" /> Clínico Geral
+
+
+    <label>Data da consulta:</label> <form><input type="date" /></form>  <label>Horário:</label> <input type=time 
+    </form>
+
+
+                                <input  type="submit" value="Registrar" />       <input type="reset" value="Cancelar" />
+     </pre>
+    </fieldset>
+  </form>
+</body>
+
+</html>
